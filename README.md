@@ -1,23 +1,7 @@
-# metafacture-runner #
+# Metafacture Runner #
 
-Standalone commandline applications for working with Flux and Metamorph scripts
+Metafacture Runner has been integrated into [metafacture-core}(https://github.com/culturegraph/metafacture-core). 
+Please see there for up-to-date versions.
 
-## Quickstart ##
+The repository culturegraph/metafacture-runner is now retired and will be removed at some point in the future.
 
-1. Download the latest distribution package from [the metafacture-runner/releases](https://github.com/culturegraph/metafacutre-runner/releases) page. Make sure that you do download a distribution package and _not_ a source code package. The latest distribution package is [metafacture-runner 4.0.0](https://github.com/culturegraph/metafacture-runner/releases/download/metafacture-runner-4.0.0/metafacture-runner-4.0.0-dist.tar.gz).
-2. Extract the downloaded archive:
-   ```bash
-   $ tar xzf metafacture-runner-4.0.0-dist.tar.gz
-   ```
-   This will create a new directory containing a ready-to-use metafacture distribution.
-3. Change into the newly created directory:
-   ```bash
-   $ cd metafacture-runner-4.0.0
-   ```
-4. Run one of the example scripts:
-   ```bash
-   $ ./flux.sh examples/read/marc21/read-marc21.flux
-   ```
-   This example will print a number of marc21 records on standard out.
-
-The _examples_ folder contains many more examples which provide a good starting point for learning metafacture. If you have any questions please join our [mailing list](http://lists.dnb.de/mailman/listinfo/metafacture) or use our issue-based discussion forum over at [metafacture-documentation](https://github.com/culturegraph/metafacture-documentation).
